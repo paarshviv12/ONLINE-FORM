@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background: white;
+    padding: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #ff4f7a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.options {
+    margin-bottom: 15px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.container {
+    margin: 15px 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+/* COMMON BOX STYLE */
+.box {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+}
+
+/* ---------------- TRANSITION ---------------- */
+.transition-box {
+  transition: all 0.3s ease;
+}
+
+.transition-box:hover {
+  background: coral;
+  transform: scale(1.3);
+}
+
+/* ---------------- ANIMATION ---------------- */
+.animation-box {
+  position: relative;
+  animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<form>
+    <h2>Registration</h2>
+
+    <input type="text" name="name" placeholder="Enter name" required>
+    <input type="email" name="email" placeholder="Enter email" required>
+    <input type="password" name="password" placeholder="Enter password" required>
+
+    <div class="options">
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+    </div>
+
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Killerwhales_jumping.jpg"
+             alt="Killer Whale (Orca)">
+    </div>
+
+    <div class="options">
+        <label>Guess the animal in the image above:</label>
+        <label><input type="radio" name="animal" value="orca" required> Orca</label>
+        <label><input type="radio" name="animal" value="dolphin"> Dolphin</label>
+        <label><input type="radio" name="animal" value="shark"> Killer Whale</label>
+    </div>
+
+    <button type="submit">Submit</button>
+
+    <!-- CONTROL 3 -->
+
+    <p>
+        Username:<br>
+        <input type="text" class="highlight"
+        placeholder="ID overrides class">
+    </p>
+
+    <!-- Transition example -->
+    <div class="box transition-box"></div>
+
+    <!-- Animation example -->
+    <div class="box animation-box"></div>
+    
+</form>
+
+</body>
+</html>

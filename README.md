@@ -1,5 +1,9 @@
 # Interactive Online Form 📝
 
+<div align="center">
+  <img src="https://media.tenor.com/GVbLnw73qD8AAAAi/dancing-duck-karlo.gif" height="200" />
+</div>
+
 A playfully designed interactive HTML/CSS online registration form. This project demonstrates essential form validation, accessible layout techniques, and vibrant UI design strategies using CSS gradients. 
 
 Uniquely, the form incorporates a visual animal identification challenge featuring an Orca (Killer Whale), alongside interactive CSS transition and animation playground demonstrations at the bottom.

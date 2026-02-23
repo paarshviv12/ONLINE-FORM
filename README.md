@@ -1,11 +1,13 @@
 # Interactive Online Form 📝
 
-A carefully structured and designed interactive HTML/CSS online form. This project demonstrates essential form validation, accessible layout techniques, and UI design strategies.
+A playfully designed interactive HTML/CSS online registration form. This project demonstrates essential form validation, accessible layout techniques, and vibrant UI design strategies using CSS gradients. 
+
+Uniquely, the form incorporates a visual animal identification challenge featuring an Orca (Killer Whale), alongside interactive CSS transition and animation playground demonstrations at the bottom.
 
 ## 🌟 Features
 - **Clean Interface:** An intuitive and user-friendly form layout optimized for clarity.
-- **Input Styling:** Customized focus and active states for input fields.
-- **Responsive Structure:** Scales seamlessly from mobile screens to desktop monitors.
+- **Vibrant Styling:** Customized focus and active states for input fields over a bright pink gradient background.
+- **Interactive Demos:** Built-in examples of looping CSS keyframe animations and distinct hover-based transition scaling.
 
 ## 🛠️ Built With
 - **HTML5:** Semantic form elements (`<form>`, `<input>`, `<label>`).
